@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    string imgPath = @ViewData["ImagePath"] as string;
+    Console.WriteLine($"imgPath: {imgPath}");
+}
+
+<div>
+    <form method="post">
+        <div>
+            <label for="Year">Year:</label>
+            <input name="year" type="number" />
+        </div>
+        <button type="submit" class="btn btn-primary">Get Zodiac</button>
+        <a asp-action="Index" class="btn btn-success">Clear</a>
+    </form>
+
+    <br />
+    <div>
+        @{
+            if (ViewData["Zodiac"] != null)
+            {
+                <h3>Your zodiac is: @ViewData["Zodiac"]</h3>
+                <img src="@imgPath" alt="zodiac" />
+            }
+
+            if (ViewData["ErrorMessage"] != null)
+            {
+                <h3>@ViewData["ErrorMessage"]</h3>
+            }
+        }
+    </div>
+
+</div>

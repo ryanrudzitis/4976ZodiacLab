@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ryanrudzitis/Documents/Documents - Ryan’s M1 MacBook Air/BCIT_CST/Term_4/4976/w2/ZodiacLab/ZodiacLab.csproj": {}
+  },
+  "projects": {
+    "/Users/ryanrudzitis/Documents/Documents - Ryan’s M1 MacBook Air/BCIT_CST/Term_4/4976/w2/ZodiacLab/ZodiacLab.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ryanrudzitis/Documents/Documents - Ryan’s M1 MacBook Air/BCIT_CST/Term_4/4976/w2/ZodiacLab/ZodiacLab.csproj",
+        "projectName": "ZodiacLab",
+        "projectPath": "/Users/ryanrudzitis/Documents/Documents - Ryan’s M1 MacBook Air/BCIT_CST/Term_4/4976/w2/ZodiacLab/ZodiacLab.csproj",
+        "packagesPath": "/Users/ryanrudzitis/.nuget/packages/",
+        "outputPath": "/Users/ryanrudzitis/Documents/Documents - Ryan’s M1 MacBook Air/BCIT_CST/Term_4/4976/w2/ZodiacLab/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ryanrudzitis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
